@@ -1,0 +1,83 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #f1f4ff;
+}
+
+.calc {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+   justify-items: center;
+   align-items: center;
+   width: 100%;
+   height: 100vh;
+
+   &__wrap {
+      width: 100%;
+      max-width: 300px;
+      background-color: #3e4e5f;
+      border-radius: 10px;
+      padding: 20px 15px;
+      filter: drop-shadow(0px 15px 25px black);
+   }
+
+   &__display {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+      height: 115px;
+      margin-bottom: 15px;
+      color: white;
+      font-size: 40px;
+      overflow-x: scroll;
+      overflow-y: hidden;
+
+      span {
+         width: 100%;
+         text-align: right;
+      }
+   }
+
+   &__buttons {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(auto, 50px));
+      grid-template-rows: repeat(5, minmax(auto, 50px));
+      grid-auto-rows: 1fr;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+      font-size: 20px;
+
+      > div {
+         color: white;
+         box-shadow: -5px -5px 8px -1px #7084984d, 7px 7px 10px -1px #354351;
+         cursor: pointer;
+         text-align: center;
+         line-height: 50px;
+         border-radius: 8px;
+         user-select: none;
+
+         &:active {
+            box-shadow: inset -5px -5px 8px -1px #7084984d,
+               inset 7px 7px 10px -1px #354351;
+         }
+      }
+   }
+
+   div &__ac,
+   div &__de,
+   div &__dot,
+   div &__slesh,
+   div &__asterix,
+   div &__decr,
+   div &__incr,
+   div &__equal {
+      color: #69ffff;
+   }
+}
