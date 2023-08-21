@@ -1,6 +1,8 @@
 # Calculator
 
-<img width="592" alt="visual example of the Culculator" src="https://github.com/HamaHs/Calculator/assets/45846647/55635116-36af-439a-b084-7ee1e6a3ee61">
+<div align="center">
+  <img width="592" alt="visual example of the Culculator" src="https://github.com/HamaHs/Calculator/assets/45846647/55635116-36af-439a-b084-7ee1e6a3ee61">
+</div>
 
 
 This is another project where I practice working with JS. </br>
