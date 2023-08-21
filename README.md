@@ -1,7 +1,7 @@
 # Calculator
 
 <div align="center">
-  <img width="592" alt="visual example of the Culculator" src="https://github.com/HamaHs/Calculator/assets/45846647/55635116-36af-439a-b084-7ee1e6a3ee61">
+  <img width="500" alt="visual example of the Culculator" src="https://github.com/HamaHs/Calculator/assets/45846647/55635116-36af-439a-b084-7ee1e6a3ee61">
 </div>
 
 
