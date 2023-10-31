@@ -11,5 +11,5 @@ It's my second project where I have begun to use JS in complex decisions. </br>
 This time, I created a calculator.
 To create this project I used HTML, CSS(SCSS), JS, VS code Live Server, VS code Live Sass Compiler
 
-Sass compiler: https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
+Sass compiler: https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass <br />
 Live Server: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
